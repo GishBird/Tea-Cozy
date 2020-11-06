@@ -17,8 +17,12 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  
 }
 
+h2, h4, h5{
+  text-align: center;
+}
 /* TITLE AND NAV */
 
 .head-container {
@@ -28,6 +32,8 @@ body {
 
 .image-left {
   padding-left: 10px;
+
+  
 }
 
 nav {
@@ -45,13 +51,13 @@ a {
 
 .mission {
   position: relative;
+  margin-top: 50px;
 }
 #mission-background {
-  width: 100vw;
+  margin-left: 25px;
   height: 700px;
   background-repeat: no-repeat;
-  background-size: cover;
-
+  background-size: 95% auto;
   background-image: url("images/img-mission-background.jpg");
 }
 .mission-text {
@@ -59,5 +65,62 @@ a {
   width: 100vw;
   background-color: black;
   text-align: center;
-  top: 50%;
+  top: 40%;
+}
+
+/* TEA OF THE MONTH  */
+
+.tea-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.month {
+  height: 200px;
+  width: 300px;
+}
+
+/* LOCATIONS */
+
+.location-container {
+  
+}
+#location-image {
+  margin-left: 25px;
+  height: 550px;
+  width: 95%;
+  background-repeat: no-repeat;
+  /* background-size: 95% 550px; */
+  background-image: url(images/img-locations-background.jpg) ;
+}
+.location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.haichau {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+.mykhe {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+.hoian {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+
+/* FOOTER  */
+h6 {
+  text-align: left;
+  margin-left: 20px;
 }
