@@ -25,47 +25,65 @@ h2, h4, h5{
 }
 /* TITLE AND NAV */
 
+
+
 .head-container {
-  display: flex;
-  justify-content: space-between;
+  background-color: black;
+  width: 1250px;
+  position: fixed;
+  height: 100px;
+  border-bottom: 1px solid seashell;
+ 
+
+}
+.image-left {
+  float: left;
+  padding-left: 10px;
+  height: 30px;
+
+}
+nav a {
+  float: right;
+  padding-right: 20px;
+  padding-top: 35px;
+  text-decoration: underline;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .image-left {
   padding-left: 10px;
 
-  
-}
+} 
 
-nav {
-  padding-top: 30px;
-  padding-right: 30px;
-}
-a {
-  color: seashell;
-  opacity: 0.9;
-  text-decoration: underline;
-  margin-right: 15px;
-}
+
+
 
 /* MISSION SECTION */
 
-.mission {
-  position: relative;
-  margin-top: 50px;
+.mission-container {
+  height: 700px;
+  width: 1200px;
+  
+  
 }
-.mission-background {
-  margin-left: 25px;
+#mission-image {
+  margin: auto 25px;
   height: 700px;
   background-repeat: no-repeat;
-  background-size: 95% auto;
+  background-size: cover;
   background-image: url("images/img-mission-background.jpg");
 }
+.our-mission {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .mission-text {
-  position: absolute;
-  width: 100%;
   background-color: black;
-  text-align: center;
-  top: 50%;
+  width: 1200px;
 }
 
 /* TEA OF THE MONTH  */
