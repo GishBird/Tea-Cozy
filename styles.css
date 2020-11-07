@@ -53,7 +53,7 @@ a {
   position: relative;
   margin-top: 50px;
 }
-#mission-background {
+.mission-background {
   margin-left: 25px;
   height: 700px;
   background-repeat: no-repeat;
@@ -62,13 +62,18 @@ a {
 }
 .mission-text {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   background-color: black;
   text-align: center;
-  top: 40%;
+  top: 50%;
 }
 
 /* TEA OF THE MONTH  */
+.tea-of-the-month {
+  width: 1000px;
+  margin-left: 100px;
+
+}
 
 .tea-photos {
   display: flex;
@@ -83,15 +88,16 @@ a {
 /* LOCATIONS */
 
 .location-container {
-  
+  height: 500px;
 }
+
 #location-image {
   margin-left: 25px;
-  height: 550px;
-  width: 95%;
+  height: 500px;
   background-repeat: no-repeat;
-  /* background-size: 95% 550px; */
+  background-size: cover;
   background-image: url(images/img-locations-background.jpg) ;
+  
 }
 .location {
   display: flex;
@@ -104,6 +110,7 @@ a {
   height: 300px;
   width: 300px;
   text-align: center;
+  
 }
 .mykhe {
   background-color: black;
@@ -116,6 +123,7 @@ a {
   height: 300px;
   width: 300px;
   text-align: center;
+  
 }
 
 
@@ -124,3 +132,4 @@ h6 {
   text-align: left;
   margin-left: 20px;
 }
+
