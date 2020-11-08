@@ -229,6 +229,6 @@ body {
 @media screen and (max-width: 375px) {
   .image-left img{
     height: 125px;
-    width: 50px;
+    width: 100px;
   }
 }
