@@ -183,20 +183,20 @@ input[type=email] {
   background-color: seashell;
 }
 
-@media screen and (max-width: 875px ) {
+@media screen and (max-width: 375px ) {
 body {
   font-size: .75rem;
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 375px) {
   .head-container {
     width: 350px;
     
   }
 }
 
-@media screen and(max-width: 875) {
+@media screen and(max-width: 375) {
   .image-left .navbar-right {
     flex-shrink: 1;
     font-size: .75rem;
@@ -204,14 +204,14 @@ body {
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 375px) {
   .tea-of-the-month {
     width: 350px;
     margin: auto 10px;
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 375px) {
   .location {
     height: 300px;
     flex-wrap: wrap;
