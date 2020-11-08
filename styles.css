@@ -182,3 +182,22 @@ input[type=email] {
   padding: 6px;
   background-color: seashell;
 }
+
+@media (max-width: 375px ) {
+body {
+  font-size: .75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .head-container {
+    width: 350px;
+    
+  }
+}
+
+@media (max-width: 375) {
+  .image-left .navbar-right {
+    flex-shrink: 2;
+  }
+}
