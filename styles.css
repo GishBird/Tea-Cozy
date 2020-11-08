@@ -162,17 +162,23 @@ h6 {
 
 form {
   text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: seashell;
+  opacity: 0.9;
+  font-weight: 700;
 }
 input[type=submit] {
   background-color: seashell;
   color: black;
   border-radius: 15%;
-  padding: 6px 16px;
+  padding: 8px 12px;
+  font-family: Helvetica;
+  border: none;
+  text-decoration: none;
 }
 input[type=email] {
   border-radius: 5px;
   padding: 6px;
-}
-label {
-  margin-top: 5px;
+  background-color: seashell;
 }
